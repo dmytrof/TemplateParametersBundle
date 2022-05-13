@@ -1,0 +1,34 @@
+{
+    "name": "dmytrof/template-parameters-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony DmytrofTemplateParametersBundle to replace parameters in templates",
+    "keywords": ["template parameters", "email parameters"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Feshchenko",
+            "email": "dmytro.feshchenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "symfony/http-kernel": "^4.3 || ^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3 || ^9.1",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dmytrof\\DmytrofTemplateParametersBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dmytrof\\DmytrofTemplateParametersBundle\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "tests": "phpunit"
+    }
+}
