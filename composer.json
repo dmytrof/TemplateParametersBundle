@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dmytrof\\DmytrofTemplateParametersBundle\\": "src/"
+            "Dmytrof\\TemplateParametersBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dmytrof\\DmytrofTemplateParametersBundle\\Tests\\": "tests/"
+            "Dmytrof\\TemplateParametersBundle\\Tests\\": "tests/"
         }
     },
     "scripts": {
